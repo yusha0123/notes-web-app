@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 768px){
+    #notes{
+       width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.navbar {
+    background-color: #F1F6F5;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Chivo Mono', monospace;
+    font-size: 2rem;
+}
+
+.title h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button-section {
+    text-align: center;
+}
+
+.notes-container {
+    width: 90%;
+    min-height: 50vh;
+    margin: 10px auto;
+    overflow: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#no-notes,#your-notes{
+    margin-top: 15px;
+}
+
+.card {
+    overflow: auto;
+    padding: 15px;
+    margin: 20px;
+}
+
+#notes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+#your-notes,#no-notes{
+    display: none;
+}
